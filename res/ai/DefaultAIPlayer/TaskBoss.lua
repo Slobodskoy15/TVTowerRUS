@@ -21,15 +21,6 @@ function TaskBoss:typename()
 end
 
 
-function TaskBoss:getStrategicPriority()
-	local player = getPlayer()
-	if not player.onOwnFloor then
-		return 0.0
-	end
-	return 1.0
-end
-
-
 function TaskBoss:Activate()
 	-- Was getan werden soll:
 	self.CheckCreditJob = JobCheckCredit()
@@ -51,15 +42,7 @@ function TaskBoss:BeforeBudgetSetup()
 	self:CalculateFixedCosts()
 	self.InvestmentPriority = 1
 
-	local player = getPlayer()
-	local money = player.money
-	if player.coverage > 0.9 and player.maxTopicalityBlocksCount > 12 then
-		--do not spend all available money (image 0-100)
-		self.BudgetWeight = player.image / 15
-	else
-		self.BudgetWeight = 0
-	end
-	
+	local money = getPlayer().money
 	local credit = MY.GetCredit(-1)
 	self.NeededInvestmentBudget = credit
 	if credit == 0 then
@@ -76,8 +59,6 @@ function TaskBoss:BeforeBudgetSetup()
 		end
 	elseif (money - credit) > 100000 then
 		self.NeededInvestmentBudget = credit / 10
-	elseif money > 3000000 and credit > 500000 then
-		self.NeededInvestmentBudget = 500000
 	else
 		self.InvestmentPriority = 0
 		self.NeededInvestmentBudget = 10000
@@ -132,10 +113,11 @@ function JobCheckCredit:Prepare(pParams)
 	if self.Task.NeededInvestmentBudget > 0 then
 		self.Task.TryToRepayCredit = math.max(0, math.min(money, self.Task.NeededInvestmentBudget))
 	end
-	if MY.GetCredit(-1) == 0 and player.hour < 8 then
+	if MY.GetCredit(-1) == 0 and player.hour < 6 then
 		self.Task.TryToRepayCredit = 0
+		local stationTask = player.TaskList[TASK_STATIONMAP]
 		--get credit and increase chance for good investment
-		if player.coverage > 0.9 then
+		if stationTask ~= nil and stationTask.maxReachIncrease ~=  nil and stationTask.maxReachIncrease < 0 then
 			--no credit necessary for station purchase
 		else
 			self.Task.TryToGetCredit = creditAvailable

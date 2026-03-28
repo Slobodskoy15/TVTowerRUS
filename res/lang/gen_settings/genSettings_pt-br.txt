@@ -1,8 +1,5 @@
 LANGUAGE_NAME_INTERNATIONAL = Portuguese (BR)
 LANGUAGE_NAME_LOCALE        = Português (BR)
-NUMBER_DECIMAL_SEPARATOR    = ,
-NUMBER_GROUP_SEPARATOR      = *.*
-CURRENCY_FORMAT             = 2
 
 MENU      = Menu / Pausa
 OPEN_MENU = Abrir Menu
@@ -51,12 +48,8 @@ SOUND_OUTPUT                = Saída de som
 GRAPHICS                    = Gráficos
 MUSIC                       = Música
 SFX                         = Efeitos sonoros
-#DISPLAY_MODE                =
-#WINDOWED                    =
 FULLSCREEN                  = Tela cheia
-#WINDOWED_FULLSCREEN         = 
 VSYNC                       = VSync
-#PIXEL_SMOOTHING             =
 RIGHTCLICK_EMULATION              = Emular "clique direito"
 RIGHTCLICK_EMULATION_EXPLANATION  = Simular um clique direito com um longo clique esquerdo do mouse ou toque
 RIGHTCLICK_EMULATION_TIME         = Tempo até "clique direito"

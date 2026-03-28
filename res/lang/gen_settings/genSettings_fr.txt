@@ -1,8 +1,5 @@
 LANGUAGE_NAME_INTERNATIONAL = Francais
 LANGUAGE_NAME_LOCALE        = Francais
-NUMBER_DECIMAL_SEPARATOR    = ,
-NUMBER_GROUP_SEPARATOR      = * *
-CURRENCY_FORMAT             = 4
 
 MENU      = Menu / Pause
 OPEN_MENU = Ouvrir le menu
@@ -51,12 +48,8 @@ SOUND_OUTPUT                = Audio
 GRAPHICS                    = Graphismes
 MUSIC                       = Musique
 SFX                         = Effets audio
-#DISPLAY_MODE                =
-#WINDOWED                    =
 FULLSCREEN                  = Plein écran
-#WINDOWED_FULLSCREEN         = 
 VSYNC                       = Synchronisation verticale
-#PIXEL_SMOOTHING             =
 RIGHTCLICK_EMULATION              = Emuler clic-droit
 RIGHTCLICK_EMULATION_EXPLANATION  = Simuler un clic-droit avec un clic prolongé gauche ou tactile
 RIGHTCLICK_EMULATION_TIME         = Durée du clic-droit

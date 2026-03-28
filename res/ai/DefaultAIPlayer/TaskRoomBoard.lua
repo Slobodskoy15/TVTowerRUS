@@ -38,7 +38,6 @@ function TaskRoomBoard:Activate()
 end
 
 function TaskRoomBoard:GetNextJobInTargetRoom()
-	getPlayer().onOwnFloor = false
 	if (self.ChangeRoomSignsJob.Status ~= JOB_STATUS_DONE) then
 		return self.ChangeRoomSignsJob
 	end

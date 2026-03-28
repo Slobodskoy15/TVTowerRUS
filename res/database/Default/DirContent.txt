@@ -1,0 +1,23 @@
+ Том в устройстве D имеет метку Windows 10
+ Серийный номер тома: 52A7-2A83
+
+ Содержимое папки D:\Games\TVTower_v0.8.3.2_20250207\res\database\Default
+
+07.01.2026  13:42    <DIR>          .
+07.01.2026  13:42    <DIR>          ..
+06.01.2026  02:02                78 database.xml
+06.01.2026  02:02            22 985 database_achievements.xml
+06.01.2026  02:02           198 316 database_ads.xml
+06.01.2026  02:02           655 252 database_news.xml
+06.01.2026  02:02         1 383 021 database_people.xml
+06.01.2026  02:02           126 838 database_people_fictional.xml
+06.01.2026  02:02         7 875 184 database_programmes.xml
+06.01.2026  02:02           185 203 database_programmes_fictional.xml
+06.01.2026  02:02           185 456 database_roles.xml
+06.01.2026  02:02           175 357 database_scripts.xml
+07.01.2026  13:42                 0 DirContent.txt
+06.01.2026  01:51    <DIR>          lang
+06.01.2026  01:51    <DIR>          lang_original
+06.01.2026  01:51    <DIR>          user
+              11 файлов     10 807 690 байт
+               5 папок  34 747 850 752 байт свободно

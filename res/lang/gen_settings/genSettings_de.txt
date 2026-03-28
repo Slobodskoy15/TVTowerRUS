@@ -1,8 +1,5 @@
 LANGUAGE_NAME_INTERNATIONAL = German
 LANGUAGE_NAME_LOCALE        = Deutsch
-NUMBER_DECIMAL_SEPARATOR    = ,
-NUMBER_GROUP_SEPARATOR      = *.*
-CURRENCY_FORMAT             = 4
 
 MENU      = Menü / Pause
 OPEN_MENU = Menü öffnen
@@ -51,12 +48,8 @@ SOUND_OUTPUT                = Soundausgabe
 GRAPHICS                    = Grafik
 MUSIC                       = Musik
 SFX                         = Soundeffekte
-DISPLAY_MODE                = Anzeigemodus
-WINDOWED                    = Fenster
-FULLSCREEN                  = Vollbild (exklusiv)
-WINDOWED_FULLSCREEN         = Fenster im Vollbildmodus
+FULLSCREEN                  = Vollbild
 VSYNC                       = VSync
-PIXEL_SMOOTHING             = Pixelglättung
 RIGHTCLICK_EMULATION              = Emuliere „Rechte Maustaste“
 RIGHTCLICK_EMULATION_EXPLANATION  = Simuliere Rechtsklick mit lange-drücken-Klick der linken Maustaste oder Touch
 RIGHTCLICK_EMULATION_TIME         = Zeit bis „Rechtsklick“

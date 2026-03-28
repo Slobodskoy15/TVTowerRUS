@@ -1,8 +1,5 @@
 LANGUAGE_NAME_INTERNATIONAL = Turkish
 LANGUAGE_NAME_LOCALE        = Türkçe
-NUMBER_DECIMAL_SEPARATOR    = ,
-NUMBER_GROUP_SEPARATOR      = *.*
-CURRENCY_FORMAT             = 1
 
 #MENU      = 
 #OPEN_MENU = 
@@ -51,12 +48,8 @@ SOUND_OUTPUT                = Ses Çıktısı
 GRAPHICS                    = Grafik
 MUSIC                       = Müzik
 SFX                         = Ses Efektleri
-#DISPLAY_MODE                =
-#WINDOWED                    =
 FULLSCREEN                  = Tam Ekran
-#WINDOWED_FULLSCREEN         = 
 #VSYNC                       = 
-#PIXEL_SMOOTHING             =
 #RIGHTCLICK_EMULATION              = 
 #RIGHTCLICK_EMULATION_EXPLANATION  = 
 #RIGHTCLICK_EMULATION_TIME         = 

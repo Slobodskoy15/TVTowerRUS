@@ -1,12 +1,5 @@
 <?xml version="1.0"?>
 <config version="2.0">
-	<!-- storage_mode - possible values:
-		0 = AUTO          (prefer local folder/portable mode, but fall back to userdir if failing)
-		1 = Portable mode (use local folder/portable mode, NO fall back)
-		2 = Userdir mode  (use OS user-and-app-specific folder, NO fall back)
-	-->
-	<storage_mode>0</storage_mode>
-
 	<language>de</language>
 
 	<playername>Player</playername>
@@ -21,15 +14,11 @@
 
 	<fullscreen>FALSE</fullscreen>
 	<!-- possible values:
-		OPENGL         = 0 (Linux, Windows, macOS only)
-		DIRECTX9       = 1 (Windows only)
-		DIRECTX11      = 2 (Windows only)
-		DIRECTX12      = 3 (Windows only)
-		OPEN GLES      = 4 (Android, Raspberry Pi)
-		OPEN GLES 2    = 5 (ARM based OS)
-		METAL          = 6 (macOS, iOS only)
-		(VULKAN        = 7 (not available yet))
-		SOFTWARE       = 8
+		OPENGL         = 0
+		DIRECTX7       = 1
+		DIRECTX9       = 2
+		DIRECTX11      = 3
+		BUFFEREDOPENGL = 4
 	-->
 	<renderer>0</renderer>
 	<colordepth>16</colordepth>

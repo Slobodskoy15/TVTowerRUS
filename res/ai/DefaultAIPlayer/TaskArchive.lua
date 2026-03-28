@@ -21,8 +21,7 @@ end
 
 function TaskArchive:getStrategicPriority()
 	self:LogTrace("TaskArchive:getStrategicPriority")
-	local player = getPlayer()
-	if player.hour > 17 or not player.onOwnFloor then
+	if getPlayer().hour > 17 then
 		return 0.0
 	end
 	return 1.0
@@ -113,7 +112,7 @@ function JobSellMovies:Tick()
 		if m ~= nil and m.isAvailable() == 1 then
 			table.insert(allIds, m.GetReferenceID())
 			--ignore episodes/collection-elements
-			if m.HasParentLicence()==0 and m.isTradeable() > 0 then
+			if m.HasParentLicence()==0 then
 				vm = newarchivedMovie(m)
 				self:LogTrace("# found "..vm.Title.." (guid="..vm.GUID.."  id="..vm.Id.."), planned: "..tostring(vm.planned))
 				if table.contains(toSell, vm.referenceId) then
@@ -121,7 +120,7 @@ function JobSellMovies:Tick()
 						self:LogInfo("  placing "..vm.Title.." (max topicality "..vm.maxTopicality.. ", times run " ..vm.timesRun ..") into suitcase for selling")
 						table.insert(case, vm)
 					end
-				elseif vm.timesRun > 0 then
+				else
 					table.insert(movies,vm)
 				end
 			end
@@ -137,7 +136,7 @@ function JobSellMovies:Tick()
 	end
 
 	local receivers = self.Task.Player.totalReceivers
-	local performanceThreshold = 0.17
+	local performanceThreshold = 0.15
 	local minLicenceCount = 50
 	if receivers == nil then
 		-- should not happen
@@ -213,7 +212,7 @@ end
 function JobSellMovies:getLowPerformanceLicenceToSell(movies, threshold)
 	local performanceStats = getPlayer().Stats.PerformanceData
 	if performanceStats~=nil then
-		local worstQuote = 25
+		local worstQuote = 10
 		local worstLicence = nil
 		for i=1, #movies do
 			local movie = movies[i]

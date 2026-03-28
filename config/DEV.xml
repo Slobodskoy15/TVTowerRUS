@@ -2,7 +2,7 @@
 <tvt>
 	<resources>
 		<data name="DEV_CONFIG">
-			<DEV_KEYS value="TRUE" />
+			<DEV_KEYS value="FALSE" />
 			<DEV_OSD value="FALSE" />
 			<DEV_LOG value="TRUE" />
 			<DEV_AI_GAME_SPEED value="1000" />

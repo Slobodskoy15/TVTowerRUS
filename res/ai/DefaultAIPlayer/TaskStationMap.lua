@@ -15,9 +15,8 @@ function TaskStationMap:typename()
 end
 
 function TaskStationMap:getStrategicPriority()
-	--self:LogTrace("TaskStationMap:getStrategicPriority")
-	local player = getPlayer()
-	if player.hour > 17 or not player.onOwnFloor then
+	self:LogTrace("TaskStationMap:getStrategicPriority")
+	if getPlayer().hour > 17 then
 		return 0.0
 	end
 	return 1.0
@@ -98,9 +97,7 @@ function TaskStationMap:BeforeBudgetSetup()
 
 	if blocks < 36 and (totalReceivers == nil or totalReceivers > 1200000) then
 		self.BudgetWeight = 0
-	elseif blocks < 60 and (totalReceivers == nil or totalReceivers > 5000000) then
-		self.BudgetWeight = 4
-	elseif player.coverage > 0.9 then
+	elseif blocks < 50 and (totalReceivers == nil or totalReceivers > 5000000) then
 		self.BudgetWeight = 4
 	elseif maxTopBlocks > 6 then
 		self.BudgetWeight = 12
@@ -108,7 +105,7 @@ function TaskStationMap:BeforeBudgetSetup()
 		self.BudgetWeight = 8
 	end
 
-	if self.maxReceiverIncrease ~=nil and (self.maxReceiverIncrease < 0 or player.hour > 15)  then
+	if self.maxReceiverIncrease ~=nil and self.maxReceiverIncrease < 0  then
 		self.BudgetWeight = 0
 	end
 end
@@ -183,45 +180,38 @@ function JobAnalyseStationMarket:Tick()
 	player.LastStationMapMarketAnalysis = player.WorldTicks
 	local blocks = player.blocksCount
 	player.totalReceivers = TVT:getReceivers()
-	self.Task.maxReceiverIncrease = player.totalReceivers
+	self.Task.maxReceiverIncrease = 99000000
 
-	--bankruptcy - do not grow too fast
-	if player.money > 5000000 then
-		if blocks < 60 then
-			if player.totalReceivers < 2500000 then
-				self.Task.maxReceiverIncrease = 2300000 - player.totalReceivers
-			else
-				self.Task.maxReceiverIncrease = -1
-			end
-		elseif blocks < 120 then
-			if player.totalReceivers < 5000000 then
-				self.Task.maxReceiverIncrease = 4700000 - player.totalReceivers
-			else
-				self.Task.maxReceiverIncrease = -1
-			end
-		elseif blocks < 150 then
-			if player.totalReceivers < 12000000 then
-				self.Task.maxReceiverIncrease = 11500000 - player.totalReceivers
-			else
-				self.Task.maxReceiverIncrease = -1
-			end
+	--movie prices do not increas so much anymore...
+	--[[
+	if movieCount < 12 then
+		if player.totalReceivers < 2500000 then
+			self.Task.maxReceiverIncrease = 2400000 - player.totalReceivers
+		else
+			self.Task.maxReceiverIncrease = 0
+		end
+	elseif movieCount < 24 then
+		if player.totalReceivers < 5000000 then
+			self.Task.maxReceiverIncrease = 4800000 - player.totalReceivers
+		else
+			self.Task.maxReceiverIncrease = 0
 		end
 	end
+	--]]
 
 	local mapTotalReceivers = TVT:of_getMapReceivers()
-	if player.coverage == nil then player.coverage = 0.018 end
+	player.coverage = 0.018
 	if mapTotalReceivers > 0 then --guard against error return value
 		player.coverage = player.totalReceivers / mapTotalReceivers
-		for i = 1, 4 do
-			--coverage can be calculated from values available in game interface
-			player.coverages[i] = TVT:of_getPlayerReceivers(i) / mapTotalReceivers
-		end
 	end
 
-	--TODO if coverage is high enough, use random positions rather than systematic "all possible"
-	if player.coverage > 0.955 then
+	--TODO if coverage is high enough, use random positions rather than systematicall "all possible"
+	if player.coverage > 0.15 and blocks < 96 then
+		--player bankrupt - do not by stations too fast
 		self.Task.maxReceiverIncrease = -1
-	elseif self.Task.intendedAntennaPositions == nil or table.count(self.Task.intendedAntennaPositions) < 3 then
+	elseif player.coverage > 0.9 then
+		self.Task.maxReceiverIncrease = -1
+	elseif self.Task.intendedAntennaPositions == nil or table.count(self.Task.intendedAntennaPositions) < 7 then
 		self:determineIntendedPositions()
 	end
 
@@ -489,11 +479,12 @@ function JobBuyStation:Prepare(pParams)
 	end
 
 	local hour = player.hour
-	if hour > 17 then
+	if hour > 14 then
 		self:LogDebug(" Cancel ... no buying if too little of the day is left: ".. hour)
 		self:SetCancel()
 	end
 	self.Task.CurrentBudget = math.min(self.Task.CurrentBudget, moneyExcludingFixedCosts)
+	--TODO do no spend all money on one task run
 	self.purchaseCount = 0
 end
 
@@ -528,7 +519,7 @@ function JobBuyStation:GetAttraction(tempStation)
 		attraction = -1
 	elseif attraction < 1 then
 		attraction = -2
-	elseif exclusiveReceivers < 350000 then
+	elseif exclusiveReceivers < 100000 then
 		attraction = attraction * 0.5
 	end
 	self:LogTrace("    -> attraction: " .. attraction .. "  |  ".. pricePerViewer .. " - (" .. priceDiff .. " / currentBudget: " .. self.Task.CurrentBudget .. ")")
@@ -754,7 +745,7 @@ function JobBuyStation:Tick()
 		self.purchaseCount = self.purchaseCount + 1
 	end
 
-	if bestOffer == nil or self.Task.maxReceiverIncrease < 1000000 or self.Task.CurrentBudget < 300000 or self.purchaseCount >= 3 or getPlayer().minutesGone - self.Task.StartTask > 10 then
+	if bestOffer == nil or self.Task.maxReceiverIncrease < 1000000 or self.Task.CurrentBudget < 300000 or self.purchaseCount >= 3 or getPlayer().minutesGone - self.Task.StartTask > 20 then
 		self.Status = JOB_STATUS_DONE
 	end
 end

@@ -1,8 +1,5 @@
 LANGUAGE_NAME_INTERNATIONAL = Polski
 LANGUAGE_NAME_LOCALE        = Polski
-NUMBER_DECIMAL_SEPARATOR    = ,
-NUMBER_GROUP_SEPARATOR      = * *
-CURRENCY_FORMAT             = 4
 
 MENU      = Menu / Pauza
 OPEN_MENU = Otwórz Menu
@@ -51,12 +48,8 @@ SOUND_OUTPUT                = Wyjście dźwięku
 GRAPHICS                    = Grafika
 MUSIC                       = Muzyka
 SFX                         = Efekty dźwiękowe
-#DISPLAY_MODE                =
-#WINDOWED                    =
 FULLSCREEN                  = Pełny ekran
-#WINDOWED_FULLSCREEN         = 
 VSYNC                       = VSync
-#PIXEL_SMOOTHING             =
 RIGHTCLICK_EMULATION              = Emuluj „kliknięcie prawym przyciskiem myszy”
 RIGHTCLICK_EMULATION_EXPLANATION  = Emulacja kliknięcia p.p.m za pom. dług. kliknięcia l.p.m. lub dotyku
 RIGHTCLICK_EMULATION_TIME         = Czas przed „kliknięciem p.p.m.”
