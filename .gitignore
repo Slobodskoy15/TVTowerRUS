@@ -6,7 +6,7 @@
 /TVTower_Linux32_noPulseAudio
 /TVTower.mt
 /TVTower.nonstripped
-*.exe
+# *.exe
 *.bak
 *.app
 *.bmx/
@@ -21,8 +21,8 @@ TVTowerSolution.BLIdeUS.layout
 TVTower.blpo
 /anleitung.txt
 docs/manual*.txt
-screenshot*.png
-screenshot*.jpg
+# screenshot*.png
+# screenshot*.jpg
 .DS_Store
 *.ffs_db
 .project
