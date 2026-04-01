@@ -1,0 +1,41 @@
+TARGETGROUP_ALL = Все
+TARGETGROUP_CHILDREN = Дети
+TARGETGROUP_TEENAGERS = Подростки
+TARGETGROUP_HOUSEWIVES = Домохозяйки
+TARGETGROUP_EMPLOYEES = Рабочие
+TARGETGROUP_UNEMPLOYED = Безработные
+TARGETGROUP_MANAGERS = Менеджеры
+TARGETGROUP_PENSIONERS = Пенсионеры
+TARGETGROUP_WOMEN = Женщины
+TARGETGROUP_MEN = Мужчины
+
+CLASSIFICATION = classification
+REMAINING_TERM = remaining term
+SPOTS_TO_SEND  = spots to send
+
+AD_QUALITY            = Quality
+AD_PROFIT             = Profit
+AD_PLANNED = запланировано
+AD_TOSEND = осталось
+AD_PENALTY            = Penalty
+AD_MIN_AUDIENCE = Мин. аудитория
+AD_TARGETGROUP = Целевая группа
+AD_SEND_TILL_TOLATE = Слишком поздно!
+AD_SEND_TILL_MIDNIGHT = Показать до полуночи!
+AD_SEND_TILL_TOMORROW = Показать до конца завтрашнего дня!
+AD_STILL_X_DAYS = осталось %1 дн.
+
+AD_CHANNEL_IMAGE_TOO_LOW = Имидж канала слишком низок. %CHANNELIMAGE%% < %IMAGE%%.
+AD_PLEASE_GENRE_X = Жанр: %GENRE%
+AD_PLEASE_FLAG = Требуется: %FLAG%
+
+INFOMERCIAL = Телемагазин
+AD_INFOMERCIAL = Вы получаете оплату за трансляцию телемагазинов. Доход зависит от аудитории.
+AD_INFOMERCIAL_NOT_AVAILABLE = Для этой рекламы формат телемагазина невозможен.
+AD_INFOMERCIAL_PROFIT = Доход: %PROFIT% за 1000 зрителей
+
+ADCONTRACT_FINISHED = Рекламный контракт завершен
+ADCONTRACT_FAILED = Рекламный контракт провален
+ADCONTRACT_X_SUCCESSFULLY_FINISHED = Рекламный контракт |b|%TITLE%|/b| успешно выполнен.
+PROFIT_OF_X_GOT_CREDITED = Выплачена прибыль в размере %MONEY%.
+ADCONTRACT_X_FAILED = Рекламный контракт |b|%TITLE%|/b| провален.

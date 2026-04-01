@@ -1,0 +1,182 @@
+INCREASE = Увеличить
+RUNNING_COSTS = Расходы на содерж.
+BROADCASTING_AREA = Broadcasting area
+OF_THE_MAP        = of map
+
+##https://www.iso.org/obp/ui/#iso:code:3166:DE
+##SHORT can vary from code to more common abbreviations!
+MAP_COUNTRY_DE_LONG     = Germany
+MAP_COUNTRY_DE_SHORT    = GER
+MAP_COUNTRY_DE-HB_LONG  = Bremen
+MAP_COUNTRY_DE-BE_LONG  = Berlin
+MAP_COUNTRY_DE-HH_LONG  = Hamburg
+MAP_COUNTRY_DE-BW_LONG  = Baden-Wurttemberg
+MAP_COUNTRY_DE-BY_LONG  = Bavaria
+MAP_COUNTRY_DE-SL_LONG  = Saarland
+MAP_COUNTRY_DE-RP_LONG  = Rhineland-Palatinate
+MAP_COUNTRY_DE-HE_LONG  = Hesse
+MAP_COUNTRY_DE-TH_LONG  = Thuringia
+MAP_COUNTRY_DE-SN_LONG  = Saxony
+MAP_COUNTRY_DE-ST_LONG  = Saxony-Anhalt
+MAP_COUNTRY_DE-NI_LONG  = Lower Saxony
+MAP_COUNTRY_DE-SH_LONG  = Schleswig-Holstein
+MAP_COUNTRY_DE-BB_LONG  = Brandenburg
+MAP_COUNTRY_DE-NW_LONG  = North Rhine-Westphalia
+MAP_COUNTRY_DE-MV_LONG  = Mecklenburg-Western Pomerania
+MAP_COUNTRY_DE-HB_SHORT = HB
+MAP_COUNTRY_DE-BE_SHORT = BE
+MAP_COUNTRY_DE-HH_SHORT = HH
+MAP_COUNTRY_DE-BW_SHORT = BW
+MAP_COUNTRY_DE-BY_SHORT = BY
+MAP_COUNTRY_DE-SL_SHORT = SL
+MAP_COUNTRY_DE-RP_SHORT = RP
+MAP_COUNTRY_DE-HE_SHORT = HE
+MAP_COUNTRY_DE-TH_SHORT = TH
+MAP_COUNTRY_DE-SN_SHORT = SN
+MAP_COUNTRY_DE-ST_SHORT = ST
+MAP_COUNTRY_DE-NI_SHORT = NI
+MAP_COUNTRY_DE-SH_SHORT = SH
+MAP_COUNTRY_DE-BB_SHORT = BB
+MAP_COUNTRY_DE-NW_SHORT = NW
+MAP_COUNTRY_DE-MV_SHORT = MV
+OF_THE_MAP = карты
+
+MAP_COUNTRY_DE_LONG = Германия
+MAP_COUNTRY_DE_SHORT = GER
+MAP_COUNTRY_DE-HB_LONG = Бремен
+MAP_COUNTRY_DE-BE_LONG = Берлин
+MAP_COUNTRY_DE-HH_LONG = Гамбург
+MAP_COUNTRY_DE-BW_LONG = Баден-Вюртемберг
+MAP_COUNTRY_DE-BY_LONG = Бавария
+MAP_COUNTRY_DE-SL_LONG = Саар
+MAP_COUNTRY_DE-RP_LONG = Рейнланд-Пфальц
+MAP_COUNTRY_DE-HE_LONG = Гессен
+MAP_COUNTRY_DE-TH_LONG = Тюрингия
+MAP_COUNTRY_DE-SN_LONG = Саксония
+MAP_COUNTRY_DE-ST_LONG = Саксония-Анхальт
+MAP_COUNTRY_DE-NI_LONG = Нижняя Саксония
+MAP_COUNTRY_DE-SH_LONG = Шлезвиг-Гольштейн
+MAP_COUNTRY_DE-BB_LONG = Бранденбург
+MAP_COUNTRY_DE-NW_LONG = Северный Рейн-Вестфалия
+MAP_COUNTRY_DE-MV_LONG = Мекленбург-Передняя Померания
+
+MAP_COUNTRY_DE-HB_SHORT = HB
+MAP_COUNTRY_DE-BE_SHORT = BE
+MAP_COUNTRY_DE-HH_SHORT = HH
+MAP_COUNTRY_DE-BW_SHORT = BW
+MAP_COUNTRY_DE-BY_SHORT = BY
+MAP_COUNTRY_DE-SL_SHORT = SL
+MAP_COUNTRY_DE-RP_SHORT = RP
+MAP_COUNTRY_DE-HE_SHORT = HE
+MAP_COUNTRY_DE-TH_SHORT = TH
+MAP_COUNTRY_DE-SN_SHORT = SN
+MAP_COUNTRY_DE-ST_SHORT = ST
+MAP_COUNTRY_DE-NI_SHORT = NI
+MAP_COUNTRY_DE-SH_SHORT = SH
+MAP_COUNTRY_DE-BB_SHORT = BB
+MAP_COUNTRY_DE-NW_SHORT = NW
+MAP_COUNTRY_DE-MV_SHORT = MV
+
+AUDIENCE_REACH_LEVEL_WILL_INCREASE = Уровень охвата аудитории вырастет!
+AUDIENCE_REACH_LEVEL_INCREASED = Уровень охвата аудитории увеличился
+LEVEL_INCREASED_FROM_X_TO_Y = Уровень повышен с %X% до %Y%.
+PRICES_WILL_RISE = Цены на программы и новости вырастут.
+AUDIENCE_REACH_LEVEL_DECREASED = Уровень охвата аудитории снизился
+LEVEL_DECREASED_FROM_X_TO_Y = Уровень снижен с %X% до %Y%.
+PRICES_WILL_FALL = Цены на программы и новости снизятся.
+
+SHOW_MAP_DETAILS = Детали карты
+CLICK_TO_SHOW_ADVANCED_MAP_INFORMATION = Нажмите для подробной информации о карте.
+
+TOGGLE_DISPLAY_OF_STATIONTYPE = Переключить отображение |b|%STATIONTYPE%|/b|
+TOGGLE_DISPLAY_OF_PLAYER_X = Показать/скрыть |b|игрока %X%|/b|
+
+SATUPLINK_TO_X = Спутниковый канал на %X%
+
+BROADCAST_QUALITY = Качество вещания
+MARKET_SHARE = Доля рынка
+REQUIRED_CHANNEL_IMAGE = Необходимый имидж канала
+SUBSCRIBED_CHANNELS = Подписанные каналы
+LAUNCHED = Запущено
+
+PRICE_INCLUDES_X_FOR_BROADCAST_PERMISSION = Цена включает %X% за лицензию
+BROADCAST_PERMISSION_EXISTING = Лицензия получена
+BROADCAST_PERMISSION_MISSING = Лицензия отсутствует
+BROADCAST_PERMISSION = Лицензия на вещание
+BROADCAST_PERMISSION_SHORT = Лицензия
+PERMISSION = Разрешение
+IMAGE = Имидж
+RENEW_AUTOMATICALLY = Продлевать автоматически
+
+STATIONMAP_SECTION_NAME = Федеральная земля
+STATIONMAP_SECTIONS_NAME = Федеральные земли
+RECEIVER_SHARE = Доля приемников
+AS_OF_DATEX = По состоянию на %DATEX%
+NEXT_CENSUS_AT_DATEX = Следующая перепись: %DATEX%
+MIN_VALUEX = мин. %VALUEX%
+PRESSURE_GROUP = Группа влияния
+PRESSURE_GROUPS = Группы влияния
+PRESSURE_GROUPS_SMOKERLOBBY = Табачное лобби
+PRESSURE_GROUPS_ANTISMOKER = Антитабачники
+PRESSURE_GROUPS_ARMSLOBBY = Оружейное лобби
+PRESSURE_GROUPS_PACIFISTS = Пацифисты
+PRESSURE_GROUPS_CAPITALISTS = Капиталисты
+PRESSURE_GROUPS_COMMUNISTS = Коммунисты
+
+CHANNEL_IMAGE_TOO_LOW = Имидж канала слишком низок
+CHANNEL_LIMIT_REACHED = Лимит каналов достигнут
+PROVIDER = Провайдер
+
+CONTRACT_DURATION = Длительность контракта
+PROCEEDS_OF_SALE = Выручка от продажи
+TERMINATION_FEE = Штраф за расторжение
+
+CONTRACT_ENDS_SOON = Контракт скоро истекает
+CABLE_NETWORK_UPLINK_CONTRACT_WITH_COMPANYX_WILL_END_AT_TIMEX_DAYX = Контракт на |b|кабельное вещание|/b| с |b|%COMPANYX%|/b| завершится в %TIMEX% (%DAYX%).
+SATELLITE_UPLINK_CONTRACT_WITH_COMPANYX_WILL_END_AT_TIMEX_DAYX = Контракт на |b|спутниковую связь|/b| с |b|%COMPANYX%|/b| завершится в %TIMEX% (%DAYX%).
+ACQUIRED_PROPERTY = Приобретенная собственность
+STATION = Станция
+STATIONS = Станции
+ANTENNA = Антенна
+ANTENNAS = Антенны
+ANTENNA_RECEIVER = Накрышная антенна
+ANTENNA_RECEIVERS = Накрышные антенны
+
+CABLE_NETWORK = Кабельная сеть
+CABLE_NETWORKS = Кабельные сети
+CABLE_NETWORK_UPLINK = Кабельное вещание
+CABLE_NETWORK_UPLINKS = Кабельные каналы
+CABLE_NETWORK_RECEIVER = Кабельное подключение
+CABLE_NETWORK_RECEIVERS = Кабельные подключения
+
+SATELLITE = Спутник
+SATELLITES = Спутники
+SATELLITE_UPLINK = Спутниковый аплинк
+SATELLITE_UPLINKS = Спутниковые аплинки
+SATELLITE_RECEIVER = Спутниковая тарелка
+SATELLITE_RECEIVERS = Спутниковые тарелки
+UNUSED_TRANSMITTER = Неиспользуемый передатчик
+
+NEW_STATION = Новая станция
+BUY_STATION = Купить станцию
+SELL_STATION = Продать станцию
+NEW_CABLE_NETWORK_UPLINK = Новое каб. вещание
+NEW_SATELLITE_UPLINK = Новый спутн. аплинк
+SIGN_UPLINK = Подписать контракт
+CANCEL_UPLINK = Расторгнуть контракт
+SELL_TRANSMITTER = Продать передатчик
+RENEW_CONTRACT = Продлить контракт
+
+SELECT_LOCATION = Выберите место
+SELECT_STATION = Выберите станцию
+SELECT_SATELLITE = Выберите спутник
+TOO_EXPENSIVE = Слишком дорого
+UNSELLABLE = Нельзя продать
+
+CONSTRUCTION_TIME = Время постройки
+UNDER_CONSTRUCTION = Строится
+READY_AT_TIME_X = Будет готово в %TIME%
+READY_AT_DAY_X = Будет готово (день): %TIME%
+X_UNDER_CONSTRUCTION = %X%: идет стройка
+NEW_STATION_WILL_BE_READY_AT_TIME_X = Новая станция будет готова в %TIME%.
+NEW_STATION_WILL_BE_READY_AT_DAY_X = Новая станция будет готова (день): %TIME%.

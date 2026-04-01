@@ -1,0 +1,47 @@
+﻿MISSION = Испытание
+MISSION_START_PEP1 = Пусть всё получится!
+MISSION_START_PEP2 = Удачи!
+MISSION_START_PEP3 = Постарайся как следует!
+MISSION_START_PEP4 = Ты справишься!
+MISSION_SUCCESS = %HURRAY% Испытание %GOAL% успешно завершено
+MISSION_SUCCESS_TEXT1 = Поздравляем!
+MISSION_SUCCESS_TEXT2 = Отличная работа!
+MISSION_SUCCESS_TEXT3 = Великолепно!
+MISSION_END_NEUTRAL1 = Давай посмотрим, какое место ты займешь в таблице рекордов.
+MISSION_FAILED = Испытание %GOAL% провалено
+MISSION_OTHER_PLAYER = %NAME% завершил испытание первым
+MISSION_DISABLE_DEV = (Режим разработчика был отключен)
+MISSION_ABORTED = Испытание прервано
+
+MISSION_CATEGORY_NOGOAL = Свободная игра
+MISSION_CATEGORY_IMAGE = Имидж
+MISSION_CATEGORY_MONEY = Деньги
+MISSION_CATEGORY_REACH = Охват аудитории
+MISSION_CATEGORY_BETTY = Бетти
+MISSION_CATEGORY_SAMMY = Сэмми
+
+MISSION_TITLE_IMAGE = Имидж
+MISSION_TITLE_MONEY = Баланс счета
+MISSION_TITLE_REACH = Аудитория
+MISSION_TITLE_BETTY = Любовь Бетти
+MISSION_TITLE_SAMMY = Сэмми
+
+MISSION_GOAL_MAXIMIZE = %GOAL% как можно выше
+MISSION_GOAL_LESSTHAN = всегда меньше чем %GOAL%
+MISSION_GOAL_IMAGE = Имидж: %VALUE%%
+MISSION_GOAL_MONEY = Баланс счета: %VALUE%
+MISSION_GOAL_REACH = Охват вещания: %VALUE%%
+MISSION_GOAL_BETTY = Любовь Бетти: %VALUE%%
+MISSION_GOAL_SAMMY_M = Как можно больше Сэмми
+MISSION_GOAL_SAMMY_A = Каждая категория Сэмми
+MISSION_GOAL_SAMMY_R = %COUNT% Сэмми подряд
+
+MISSION_TIME_WITHIN = %GOAL% в течение %DAYS% дн.
+MISSION_TIME_AFTER = %GOAL% спустя %DAYS% дн.
+
+MISSION_DIFFICULTY_0 = Своя
+MISSION_DIFFICULTY_1 = Легко
+MISSION_DIFFICULTY_2 = Нормально
+MISSION_DIFFICULTY_3 = Сложно
+MISSION_DIFFICULTY_4 = Очень сложно
+MISSION_DIFFICULTY_5 = Безумие

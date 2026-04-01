@@ -1,0 +1,154 @@
+BETTY_FEELINGS                     = Чувства Бетти к вам
+THERE_IS_NO_LOVE_IN_THE_AIR_YET    = Пока нет любви в воздухе... ;-)
+BETTY_KNOWS_WHO_YOU_ARE            = Бетти знает, кто вы
+BETTY_SEEMS_TO_LIKE_YOU            = Бетти нравится вы
+BETTY_SEEMS_TO_LIKE_YOU_A_BIT_MORE = Бетти влюбляется в вас
+BETTY_LOVES_YOU                    = Бетти любит вас
+BETTY_REALLY_LOVES_YOU             = Бетти любит вас безмерно!
+
+DIALOGUE_BETTY_WELCOME_TEXT         = Привет,\n\nЧем я могу помочь?
+DIALOGUE_BETTY_WELCOME_LEVEL0_TEXT1 = Добрый день!\n\nЧто привело вас на верхний этаж?
+DIALOGUE_BETTY_WELCOME_LEVEL0_TEXT2 = Да?\n\nЯ думаю, вы здесь, чтобы получить последние новости о Самми?
+DIALOGUE_BETTY_WELCOME_LEVEL1_TEXT1 = Привет %PLAYERNAME%,\n\nЧто привело вас ко мне сегодня?
+DIALOGUE_BETTY_WELCOME_LEVEL1_TEXT2 = Хмм?\n\nВы наверняка хотите услышать новости о Самми...?
+DIALOGUE_BETTY_WELCOME_LEVEL1_TEXT3 = Привет %PLAYERNAME%,\n\nПриятно видеть вас снова. Присядьте, пожалуйста - так зачем вы здесь?
+DIALOGUE_BETTY_WELCOME_LEVEL1_TEXT4 = %PLAYERNAME%!?\n\nВы негодник... Я думаю, вы здесь только за новостями о Самми, не так ли?
+DIALOGUE_BETTY_WELCOME_LEVEL1_TEXT5 = Привет %PLAYERNAME%,\n\nНаша последняя встреча была действительно приятной. Надеюсь, мы скоро увидимся снова!
+DIALOGUE_BETTY_WELCOME_LEVEL1_TEXT6 = Эй!\n\nЯ приготовлю нам чай - надеюсь, у вас есть время поболтать.
+
+DIALOGUE_BETTY_NO_AWARD_LEVEL0_TEXT1                              = В настоящее время никакой Самми не награждается. Я думаю, гонка за очками начнется снова через несколько дней.
+DIALOGUE_BETTY_NO_AWARD_LEVEL1_TEXT1                              = В настоящее время никакой Самми не награждается, %PLAYERNAME%. Может, я расскажу вам больше завтра.
+DIALOGUE_BETTY_AWARDINFORMATION_NO_FAVORITE_LEVEL0_TEXT1          = %AWARDNAME%?\n\nПока нет явного фаворита.
+DIALOGUE_BETTY_AWARDINFORMATION_YOU_ARE_FAVORITE_LEVEL0_TEXT1     = %AWARDNAME%?\n\nСейчас выглядит хорошо для вас.
+DIALOGUE_BETTY_AWARDINFORMATION_YOU_ARE_FAVORITE_LEVEL1_TEXT1     = %AWARDNAME%?\n\nСейчас выглядит хорошо для вас, %PLAYERNAME%!
+DIALOGUE_BETTY_AWARDINFORMATION_YOU_ARE_AVERAGE_LEVEL0_TEXT1      = %AWARDNAME%?\n\nЯ скажу вам столько: вы в середине стаи.
+DIALOGUE_BETTY_AWARDINFORMATION_YOU_ARE_AVERAGE_LEVEL1_TEXT1      = %AWARDNAME%?\n\nЯ скажу вам столько, %PLAYERNAME%: вы в середине стаи!
+DIALOGUE_BETTY_AWARDINFORMATION_YOU_ARE_NOT_FAVORITE_LEVEL0_TEXT1 = %AWARDNAME%?\n\nЧтобы победить, вам придется постараться больше.
+DIALOGUE_BETTY_AWARDINFORMATION_YOU_ARE_NOT_FAVORITE_LEVEL1_TEXT1 = %AWARDNAME%?\n\nЧтобы победить, вам придется постараться больше, %PLAYERNAME%!
+
+DIALOGUE_BETTY_PRESENT_ANNOUNCE_LEVEL0_TEXT1  = Я хотела бы дать вам маленькую вещь.
+DIALOGUE_BETTY_PRESENT_ANNOUNCE_LEVEL0_TEXT2  = Уммм... Я принесла вам подарок.
+DIALOGUE_BETTY_PRESENT_ANNOUNCE_LEVEL1_TEXT1  = У меня есть кое-что для вас.
+DIALOGUE_BETTY_PRESENT_ANNOUNCE_LEVEL1_TEXT2  = У меня есть сюрприз для вас.
+DIALOGUE_BETTY_PRESENT_ANNOUNCED_LEVEL0_TEXT1 = Правда?!
+DIALOGUE_BETTY_PRESENT_ANNOUNCED_LEVEL0_TEXT2 = Вы меня заинтриговали.
+DIALOGUE_BETTY_PRESENT_ANNOUNCED_LEVEL1_TEXT1 = О, как интересно!
+DIALOGUE_BETTY_PRESENT_ANNOUNCED_LEVEL1_TEXT2 = Вы снова придумали что-то для меня?
+DIALOGUE_BETTY_PRESENT_GIVE_LEVEL0_TEXT1      = Вот, держите.
+DIALOGUE_BETTY_PRESENT_GIVE_LEVEL1_TEXT1      = Voila.
+DIALOGUE_BETTY_PRESENT_GIVE_LEVEL1_TEXT2      = Закройте глаза на мгновение.
+DIALOGUE_BETTY_PRESENT_RETRACT_LEVEL0_TEXT1   = Я передумала.
+DIALOGUE_BETTY_PRESENT_RETRACT_LEVEL1_TEXT1   = Извините, что я сказала?
+DIALOGUE_BETTY_PRESENT_RETRACT_LEVEL1_TEXT2   = Извините, я должна была оставить это где-то.
+DIALOGUE_BETTY_PRESENT_REJECT_TODAY           = Я не могу принять этот подарок сегодня.
+DIALOGUE_BETTY_PRESENT_THANKS_LEVEL0_TEXT1    = Большое спасибо.
+DIALOGUE_BETTY_PRESENT_THANKS_LEVEL0_TEXT2    = Это очень мило с вашей стороны!
+DIALOGUE_BETTY_PRESENT_THANKS_LEVEL1_TEXT1    = О, спасибо!
+DIALOGUE_BETTY_PRESENT_THANKS_LEVEL1_TEXT2    = Спасибо миллион, милый!
+DIALOGUE_BETTY_PRESENT_WELCOME_LEVEL0_TEXT1   = Пожалуйста.
+DIALOGUE_BETTY_PRESENT_WELCOME_LEVEL0_TEXT2   = Мое удовольствие.
+DIALOGUE_BETTY_PRESENT_WELCOME_LEVEL1_TEXT1   = Пожалуйста, дорогой.
+DIALOGUE_BETTY_PRESENT_WELCOME_LEVEL1_TEXT2   = Я сделаю все для вас.
+DIALOGUE_BETTY_PRESENT_HOW_DARE_LEVEL0_TEXT1  = Как вы посмели?
+DIALOGUE_BETTY_PRESENT_HOW_DARE_LEVEL0_TEXT2  = Какое разочарование!
+DIALOGUE_BETTY_PRESENT_HOW_DARE_LEVEL1_TEXT1  = Вздох... какое разочарование.
+DIALOGUE_BETTY_PRESENT_HOW_DARE_LEVEL1_TEXT2  = О, как вы могли...
+DIALOGUE_BETTY_PRESENT_WELL1                  = Уммм...
+DIALOGUE_BETTY_PRESENT_WELL2                  = Но...
+
+DIALOGUE_BETTY_ASK_FOR_SAMMYINFORMATION = Что вы знаете о текущем Самми?
+DIALOGUE_BETTY_ASK_FOR_MASTERKEY        = Вы не могли бы, случайно, одолжить мне мастер-ключ?
+DIALOGUE_BETTY_CHANGETOPIC              = Бетти, давай поговорим о чем-то другом.
+DIALOGUE_BETTY_LEVEL0_CHANGETOPIC1      = Давай поговорим о чем-то другом.
+DIALOGUE_BETTY_GOODBYE                  = Хмм... увидимся.
+DIALOGUE_BETTY_LEVEL0_GOODBYE1          = OK... до свидания!
+DIALOGUE_BETTY_LEVEL1_GOODBYE1          = Увидимся снова!
+DIALOGUE_BETTY_LEVEL1_GOODBYE2          = Эй, мне пора идти. Увидимся позже!
+DIALOGUE_BETTY_LEVEL1_GOODBYE3          = Слушай Бетти, работа зовет. Мне нужно выйти на минутку.
+
+BETTY_PRESENT_1            = Спрей для ног
+BETTY_PRESENT_2            = Ужин на двоих
+BETTY_PRESENT_3            = Пластика носа
+BETTY_PRESENT_4            = Персонализированный роман
+BETTY_PRESENT_5            = Жемчужное ожерелье
+BETTY_PRESENT_6            = Шуба из карликового хомяка
+BETTY_PRESENT_7            = Ожерелье из красных кровавых бриллиантов
+BETTY_PRESENT_8            = Спортивный автомобиль
+BETTY_PRESENT_9            = Роскошное кольцо
+BETTY_PRESENT_10           = Яхта
+
+
+AWARDNAME_CULTURE            = Самми за Культуру
+AWARDNAME_NEWS               = Самми за Новости
+AWARDNAME_AUDIENCE           = Самми за Аудиторию
+AWARDNAME_CUSTOMPRODUCTION   = Самми за Собственные Производства
+AWARD_WON                    = Награда получена
+YOU_WON_THE_AWARDNAME        = Вы выиграли %AWARDNAME%.
+PLAYERNAME_WON_THE_AWARDNAME = %PLAYERNAME% выиграл %AWARDNAME%.
+NOBODY_WON_THE_AWARDNAME     = Из-за недостатка участников Самми не был награжден.
+CHANNEL_IMAGE                = Имидж канала
+FOR_X_HOURS                  = на %X% часов
+FOR_X_HOUR                   = на %X% час
+ATTRACTIVITY                 = привлекательность
+
+
+DIALOGUE_BOSS_MAIN_TITLE_DEFAULT1                = Что случилось, %PLAYERNAME%?
+DIALOGUE_BOSS_MAIN_TITLE_DEFAULT2                = %PLAYERNAME%, вы снова?
+DIALOGUE_BOSS_MAIN_TITLE_UNFRIENDLY1             = Вы осмеливаетесь показывать свое лицо здесь?!
+DIALOGUE_BOSS_MAIN_TITLE_UNFRIENDLY2             = Вы сошли с ума?!
+DIALOGUE_BOSS_MAIN_TEXT_DEFAULT1                 = Разве у вас нет ничего лучше, чем тратить мое время?
+DIALOGUE_BOSS_MAIN_TEXT_WON_AWARDNAME1           = Хмм, по крайней мере вы выиграли %AWARDNAME%.
+DIALOGUE_BOSS_MAIN_TEXT_WON_AWARDNAME2           = %AWARDNAME% наш! По крайней мере ваша работа дает мне крошечную искру надежды.
+DIALOGUE_BOSS_MAIN_TEXT_WON_AWARDNAME3           = Мы выиграли %AWARDNAME%. Благодарность идет только моей отцовской заботе, которую я дарю вам!
+DIALOGUE_BOSS_MAIN_TEXT_AWARDNAME_ENDS_TOMORROW1 = Не сидите просто так: завтра %AWARDNAME% будет награжден!
+DIALOGUE_BOSS_MAIN_TEXT_AWARDNAME_ENDS_TOMORROW2 = Я выгляжу как зубная фея? Чего вы ждете? Завтра %AWARDNAME% будет награжден!
+DIALOGUE_BOSS_MAIN_TEXT_AWARDNAME_ENDS_TODAY1    = Вперед! Ускорьтесь! Сегодня %AWARDNAME% будет награжден!
+DIALOGUE_BOSS_MAIN_TEXT_AWARDNAME_ENDS_TODAY2    = Поскольку вы стоите и глазеете, я напомню: сегодня %AWARDNAME% будет награжден!
+DIALOGUE_BOSS_MAIN_TEXT_NEW_AWARDNAME_TOMORROW1  = Начиная с завтрашнего дня, новый Самми будет награждаться. Я хочу, чтобы мы получили %AWARDNAME%!
+DIALOGUE_BOSS_MAIN_TEXT_NEW_AWARDNAME_TOMORROW2  = Вложите больше усилий: начиная с завтрашнего дня, очки разыгрываются за новый %AWARDNAME%!
+DIALOGUE_BOSS_MAIN_TEXT_PROGRAMMEMALFUNCTION1    = Эта некомпетентность невероятна!!! Вы не транслировали никакой программы |b|%PROGRAMMEMALFUNCTION%x|/b|!
+DIALOGUE_BOSS_MAIN_TEXT_NEWSMALFUNCTION1         = Вместо того, чтобы не транслировать никаких новостей |b|%NEWSMALFUNCTION%x|/b|, вы могли бы хотя бы передать прошлогодний прогноз погоды!
+DIALOGUE_BOSS_MAIN_ENDING_DEFAULT1               = Вернитесь к работе или кто-то другой получит вашу работу!
+DIALOGUE_BOSS_MAIN_ENDING_UNFRIENDLY1            = Хомяк моего сына мог бы делать вашу работу лучше, чем вы!
+DIALOGUE_BOSS_MAIN_ENDING_UNFRIENDLY2            = Еще один промах, и ваша работа уйдет к следующему, кто постучит в мою дверь!
+DIALOGUE_BOSS_MAIN_TEXT_OTHERPLAYER1             = Вон - и передайте мой худший привет вашему боссу. Хахахахаааа!
+DIALOGUE_BOSS_MAIN_TEXT_OTHERPLAYER2             = Вон, сейчас! Мне хватило вас и вашего проклятого канала!
+
+DIALOGUE_BOSS_WILLNOTDISTURB_OTHERPLAYER = Ладно, ухх... думаю, я не буду вас больше беспокоить!
+DIALOGUE_BOSS_WILLNOTDISTURB             = Не волнуйтесь, босс. Я не буду вас больше беспокоить!
+DIALOGUE_BOSS_ASKFORCREDIT               = Я хотел *кхем* узнать о кредите.
+DIALOGUE_BOSS_REPAYCREDIT                = Я хочу погасить часть своего кредита.
+DIALOGUE_BOSS_CREDIT_OK1                 = Еще немного наличных?\n\nНу, вы делаете свою работу лучше, чем другие стажеры.\nНо доступно не больше |b|%CREDIT%€|/b|, понятно?!
+DIALOGUE_BOSS_CREDIT_OK2                 = Вы тратите мои хорошие деньги!\n\nЯ надеюсь ради вас, что из этого выйдет что-то разумное.\nНо я не могу предложить больше |b|%CREDIT%€|/b|. Понятно?
+DIALOGUE_BOSS_CREDIT_OK_ACCEPT1          = Да, я думаю, я возьму этот кредит.
+DIALOGUE_BOSS_CREDIT_OK_ACCEPT2          = Спасибо босс, деньги будут потрачены с пользой!
+DIALOGUE_BOSS_CREDIT_OK_ACCEPT_HALF1     = Спасибо босс, половина подойдет; это |b|%VALUE%€|/b|.
+DIALOGUE_BOSS_CREDIT_OK_ACCEPT_HALF2     = Я бы был рад |b|%VALUE%€|/b|!
+DIALOGUE_BOSS_CREDIT_OK_ACCEPT_QUARTER1  = Ну, |b|%VALUE%€|/b| вполне достаточно для меня.
+DIALOGUE_BOSS_CREDIT_OK_ACCEPT_QUARTER2  = Мне просто нужно |b|%VALUE%€|/b|.
+DIALOGUE_BOSS_DECLINE1                   = Ах нет... спасибо Босс, но я передумал.
+DIALOGUE_BOSS_DECLINE2                   = Я передумал. Увидимся позже, босс.
+DIALOGUE_BOSS_DECLINE3                   = Умм, я, вероятно, проверю позже.
+DIALOGUE_BOSS_CREDIT_REPAY               = У вас есть существующий кредит!\n\nВы все еще должны мне |b|%CREDIT%€|/b| - погасите это сначала!\nА теперь уходите или вас выгонят!
+DIALOGUE_BOSS_CREDIT_REPAY_ACCEPT        = Ладно, тогда. Я заплачу что-то назад.
+DIALOGUE_BOSS_CREDIT_REPAY_BOSSRESPONSE  = Вы не говорите? По крайней мере, хорошие новости на сегодня.\n\nСколько вы хотите погасить?
+DIALOGUE_BOSS_CREDIT_REPAY_VALUE1        = Хмм, я могу погасить |b|%VALUE%€|/b|.
+DIALOGUE_BOSS_CREDIT_REPAY_VALUE2        = Я могу погасить, скажем, |b|%VALUE%€|/b|.
+DIALOGUE_BOSS_CREDIT_REPAY_ALL           = Собственно, я погашу весь кредит: |b|%CREDIT%€|/b|.
+
+DIALOGUE_BOSS_CHANGETOPIC1  = Мы могли бы поговорить о чем-то другом?
+DIALOGUE_BOSS_CHANGETOPIC2  = Уммм, на другую тему...
+DIALOGUE_BOSS_BACKTOWORK    = Ладно %PLAYERNAME%. Теперь, вернитесь к работе!
+DIALOGUE_BOSS_BACKTOWORK_OK = Ладно, я уже ухожу.
+
+YOUR_BOSS_WANTS_TO_SEE_YOU                   = Ваш босс хочет видеть вас
+YOU_HAVE_GOT_X_HOURS_TO_VISIT_HIM            = У вас есть %HOURS% часов, чтобы вернуться к нему.
+CLICK_HERE_TO_START_YOUR_VISIT_AHEAD_OF_TIME = Нажмите здесь, чтобы посетить его прямо сейчас.
+
+YOUR_BALANCE_IS_POSITIVE_AGAIN            = Ваш баланс снова положительный.
+YOUR_BALANCE_IS_NEGATIVE                  = Ваш баланс отрицательный.
+YOU_ARE_NO_LONGER_IN_DANGER_TO_GET_FIRED  = Вы больше не в опасности быть уволенным.
+YOU_HAVE_X_DAYS_TO_GET_INTO_THE_BLACK     = У вас есть %DAYS% дней, чтобы вернуться в черное.
+YOU_HAVE_ONLY_TODAY_TO_GET_INTO_THE_BLACK = У вас есть только сегодня, чтобы вернуться в черное.
+YOU_ARE_IN_DANGER_TO_GET_FIRED            = Вы в опасности быть уволенным!
+

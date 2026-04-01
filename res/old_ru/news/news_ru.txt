@@ -1,0 +1,177 @@
+NEWS_TECHNICS_MEDIA   = Медиа / Технологии
+NEWS_POLITICS_ECONOMY = Политика / Экономика
+NEWS_SHOWBIZ          = Шоу-бизнес
+NEWS_SPORT            = Спорт
+NEWS_CURRENTAFFAIRS   = Текущие события
+NEWS_CULTURE          = Культура
+
+NEWS_SORT_TOPICALITY = Sort by topicality
+NEWS_SORT_PAID       = Sort by paid state
+NEWS_SORT_AGE        = Sort by age
+NEWS_SORT_PRICE      = Sort by price
+
+NEWSPLANSIGN_TO_THE_TEAM=Команде
+NEWSPLANSIGN_SEND_THE_FOLLOWING_NEWS=отправить след. новости:
+MANAGE_BROADCASTED_NEWS=Управление вещанием новостей
+
+NEWSSTUDIO_NOT_SUBSCRIBED=нет подписки
+NEWSSTUDIO_SUBSCRIBE_GENRE_LEVEL=Подписка на жанр, уровень
+NEWSSTUDIO_SUBSCRIPTION_LEVEL=уровень подписки
+NEWSSTUDIO_DONT_SUBSCRIBE_GENRE_ANY_LONGER=Отменить подписку
+NEWSSTUDIO_NEXT_SUBSCRIPTION_LEVEL=След. уровень
+NEWSSTUDIO_CURRENT_SUBSCRIPTION_LEVEL=Тек. уровень
+NEWSSTUDIO_YOU_ALREADY_USED_LEVEL_AND_THEREFOR_PAY=Использован уровень %MAXLEVEL%. Оплата: %TOPAY%.
+
+RIGHT_CLICK_TO_DELETE=Пкм для удаления
+
+
+NEWS_TERROR_GROUP1_LEVEL1_TITLE1 = Посол PR Дубана оскорбляет коллегу
+NEWS_TERROR_GROUP1_LEVEL1_TEXT1  = Скандал: посол PR Дубана оскорбил своего коллегу из FR Дубана.
+NEWS_TERROR_GROUP2_LEVEL1_TITLE1 = Посол FR Дубана оскорбляет соседей
+NEWS_TERROR_GROUP2_LEVEL1_TEXT1  = Невероятно, но посол FR Дубана оскорбил представителей PR Дубана.
+
+NEWS_TERROR_GROUP1_LEVEL2_TITLE1 = Посла избили
+NEWS_TERROR_GROUP1_LEVEL2_TEXT1  = По пути домой посла PR Дубана оглушили в подземном гараже. Свидетели видели, как отъехала машина из FR Дубана.
+NEWS_TERROR_GROUP2_LEVEL2_TITLE1 = Квартиру посла vandalized
+NEWS_TERROR_GROUP2_LEVEL2_TEXT1  = Квартира посла Свободной Республики Дубан была vandalized. Доказательства указывают на участие PR Дубана...
+
+NEWS_TERROR_GROUP1_LEVEL3_TITLE1 = PR Дубан угрожает возмездием
+NEWS_TERROR_GROUP1_LEVEL3_TEXT1  = PR Дубан открыто угрожает местью. Преступники якобы найдены. Ситуация напряженная.
+NEWS_TERROR_GROUP2_LEVEL3_TITLE1 = FR Дубан предупреждает о последствиях
+NEWS_TERROR_GROUP2_LEVEL3_TEXT1  = Строгое послание от посольства: Довольно. FR Дубан принимает контрмеры.
+
+NEWS_TERROR_GROUP1_LEVEL4_TITLE1 = Полиция предупреждает о террористах
+NEWS_TERROR_GROUP1_LEVEL4_TEXT1  = Полиция потеряла след недавно замеченного террориста. Он якобы дубанского происхождения.
+NEWS_TERROR_GROUP2_LEVEL4_TITLE1 = Полиция предупреждает о террористах
+NEWS_TERROR_GROUP2_LEVEL4_TEXT1  = Полиция потеряла след недавно замеченного террориста. Он якобы дубанского происхождения.
+
+BOMB_DETONATION_IN_TVTOWER                   = Взрыв в TVTower
+BOMB_DETONATION_IN_TVTOWER_TEXT              = Взрыв потряс людей в известной TVTower, причинив ущерб комнате "%ROOM%". Расследования в полном разгаре.
+TOASTMESSAGE_BOMB_DETONATION_IN_TVTOWER_TEXT = Взрыв повредил комнату "%ROOM%".
+TOASTMESSAGE_BOMB_RENOVATION_COST_TEXT       = Ремонт будет стоить %COST%.
+TOASTMESSAGE_BOMB_LICENCE_DESTROYED_TEXT     = Взрыв уничтожил |b|%TITLE%|/b|.
+TOASTMESSAGE_BOMB_CONCEPT_DESTROYED_TEXT     = Взрыв уничтожил план производства.
+BOMB_DETONATION_IN_TVTOWER_NO_CLUES          = Атака на TVTower: Расследование безрезультатно
+BOMB_DETONATION_IN_TVTOWER_NO_CLUES_TEXT     = После атаки на известную TVTower власти расследовали. К сожалению, не найдено полезных доказательств.
+BOMB_DETONATION_IN_TVTOWER_FOUND_CLUES       = Атака на TVTower: Расследование находит улики
+BOMB_DETONATION_IN_TVTOWER_FOUND_CLUES_TEXT  = После атаки на известную TVTower власти расследовали с успехом! Похоже, резидентские вещатели (%CHANNELS%) внесли вклад в катастрофу своими играми со знаками.
+
+
+NEWS_ANNOUNCE_MOVIE_ACTOR_IS_DIRECTOR_TITLE       = Новый фильм поставлен и сыгран %DIRECTORNAME1%
+NEWS_ANNOUNCE_MOVIE_ACTOR_IS_DIRECTOR_DESCRIPTION = Режиссер и главный актер %DIRECTORNAME1% выводит фильм "%MOVIETITLE%" на экран.
+
+NEWS_ANNOUNCE_MOVIE_NO_CAST_TITLE       = Скоро в кино: "%MOVIETITLE%"
+NEWS_ANNOUNCE_MOVIE_NO_CAST_DESCRIPTION = Опубликован первый трейлер "%MOVIETITLE%".
+
+NEWS_ANNOUNCE_MOVIE_NO_DIRECTOR_TITLE       = Скоро в кино: "%MOVIETITLE%"
+NEWS_ANNOUNCE_MOVIE_NO_DIRECTOR_DESCRIPTION = Главный актер %ACTORNAME1% скоро выйдет в кинотеатрах с "%MOVIETITLE%".
+
+NEWS_ANNOUNCE_MOVIE_NO_ACTOR_TITLE       = Скоро в кино: "%MOVIETITLE%"
+NEWS_ANNOUNCE_MOVIE_NO_ACTOR_DESCRIPTION = Режиссер %DIRECTORNAME1% выводит фильм "%MOVIETITLE%" в ваш кинотеатр по соседству.
+
+NEWS_ANNOUNCE_MOVIE_TITLE1 = Новый фильм с %ACTORNAME1%
+NEWS_ANNOUNCE_MOVIE_TITLE2 = %DIRECTORNAME1% снимает новый фильм
+NEWS_ANNOUNCE_MOVIE_TITLE3 = %DIRECTORNAME1% с новым фильмом в кинотеатрах
+
+NEWS_ANNOUNCE_MOVIE_DESCRIPTION1 = Режиссер %DIRECTORNAME1% и актер %ACTORNAME1% выводят "%MOVIETITLE%" на экран.
+NEWS_ANNOUNCE_MOVIE_DESCRIPTION2 = Скоро в кинотеатрах: %ACTORNAME1% в "%MOVIETITLE%". Актер %ACTORNAME2% уже полон похвалы к фильму.
+NEWS_ANNOUNCE_MOVIE_DESCRIPTION3 = Завершающие штрихи "%MOVIETITLE%". %ACTORNAME1% горд сниматься в фильме.
+NEWS_ANNOUNCE_MOVIE_DESCRIPTION4 = Первый трейлер "%MOVIETITLE%" выпущен. %DIRECTORNAME1%: "Лучший фильм года".
+NEWS_ANNOUNCE_MOVIE_DESCRIPTION5 = Завершающие штрихи фильма "%MOVIETITLE%". %DIRECTORNAME1% выражает гордость за свое последнее творение.
+
+
+WEATHER_FORECAST_FOR_X_TILL_Y    = Прогноз погоды на %BEGINHOUR% до %ENDHOUR%
+SKY_IS_PARTIALLY_CLOUDY          = Частичная облачность.
+SKY_IS_OVERCAST1                 = Сильная облачность.
+SKY_IS_OVERCAST2                 = Небо затянуто облаками.
+SKY_IS_WITHOUT_CLOUDS            = Ни облачка на небе!
+SUN_SHINES_WHOLE_TIME            = Только солнце.
+SUN_WINS_AGAINST_CLOUDS1         = Облачно с проблесками солнца.
+SUN_WINS_AGAINST_CLOUDS2         = Облака позже уступят солнцу.
+SUN_IS_SHINING_SOMETIMES         = Солнце может иногда быть видно.
+SUN_IS_NOT_SHINING               = Дела принимают мрачный оборот, блокируя солнечный свет.
+RAIN_AND_SNOW_ALTERNATE          = Ожидаются дождь и снег.
+RAIN_IS_POSSIBLE                 = Ожидается дождь.
+SNOW_IS_FALLING                  = Осторожно на дорогах; снег принесет скользкие условия.
+TEMPERATURES_ARE_BETWEEN_X_AND_Y = Температуры будут в диапазоне от %MINTEMPERATURE% до %MAXTEMPERATURE%°C.
+TEMPERATURE_IS_CONSTANT_AT_X     = Температуры останутся около %TEMPERATURE%°C.
+
+IN_THE_LATER_HOURS1                       = Позже днем
+IN_THE_LATER_HOURS2                       = После рассвета
+IN_THE_LATER_HOURS3                       = Затем позже
+STORMY_WINDS_OF_UP_TO_X1                  = Порывы ветра до %MAXWINDVELOCITY% км/ч проносятся по стране.
+STORMY_WINDS_OF_UP_TO_X2                  = Сильные бризы или даже порывы до %MAXWINDVELOCITY% км/ч.
+NEARLY_NO_WIND1                           = Не очень ветрено.
+NEARLY_NO_WIND2                           = Почти нет ветра.
+SLOW_WIND_WITH_X_AND_GUST_OF_WIND_WITH_Y1 = Легкий бриз %MINWINDVELOCITY% км/ч и изолированные порывы до %MAXWINDVELOCITY% км/ч.
+WIND_VELOCITIES_ARE_BETWEEN_X_AND_Y1      = Скорости ветра между %MINWINDVELOCITY% и %MAXWINDVELOCITY% км/ч.
+WIND_VELOCITY_IS_CONSTANT_AT_X1           = Скорость ветра останется около %WINDVELOCITY% км/ч.
+
+
+SCORE_POINT  = очко
+SCORE_POINTS = очков
+
+SPORT_ICEHOCKEY = Хоккей
+SPORT_SOCCER    = Футбол
+
+SPORT_SOCCER_TEAMREPORT_MATCHWIN_S1 = ${.lte:7:${.random:10}:"${.locale:"SPORT_TEAMREPORT_MATCHKIND":"":1}":""} победа, звездный нападающий ${.self:"sportteam":0:"member":"forward":"fullname"}, против
+SPORT_SOCCER_TEAMREPORT_MATCHWIN_P1 = ${.lte:7:${.random:10}:"${.locale:"SPORT_TEAMREPORT_MATCHKIND":"":1}":""} победа, звездный нападающий ${.self:"sportteam":0:"member":"forward":"fullname"}, против
+SPORT_SOCCER_TEAMREPORT_MATCHWIN_S2 = ${.lte:7:${.random:10}:"${.locale:"SPORT_TEAMREPORT_MATCHKIND":"":1}":""} победа, благодаря забитому угловому от ${.self:"sportteam":0:"member":"forward":"lastname"}, против
+SPORT_SOCCER_TEAMREPORT_MATCHWIN_P2 = ${.lte:7:${.random:10}:"${.locale:"SPORT_TEAMREPORT_MATCHKIND":"":1}":""} победа, благодаря забитому угловому от ${.self:"sportteam":0:"member":"forward":"lastname"}, против
+SPORT_SOCCER_TEAMREPORT_MATCHWIN_S3 = ${.lte:7:${.random:10}:"${.locale:"SPORT_TEAMREPORT_MATCHKIND":"":1}":""} победа, благодаря спасенному пенальти вратаря ${.self:"sportteam":0:"member":"keeper":"lastname"}, против
+SPORT_SOCCER_TEAMREPORT_MATCHWIN_P3 = ${.lte:7:${.random:10}:"${.locale:"SPORT_TEAMREPORT_MATCHKIND":"":1}":""} победа, благодаря спасенному пенальти вратаря ${.self:"sportteam":0:"member":"keeper":"lastname"}, против
+SPORT_SOCCER_TEAMREPORT_MATCHWIN_S4 = ${.lte:7:${.random:10}:"${.locale:"SPORT_TEAMREPORT_MATCHKIND":"":1}:""} победа, благодаря блестящим сейвам голкипера ${.self:"sportteam":0:"member":"keeper":"lastname"}, против
+SPORT_SOCCER_TEAMREPORT_MATCHWIN_P4 = ${.lte:7:${.random:10}:"${.locale:"SPORT_TEAMREPORT_MATCHKIND":"":1}:""} победа, благодаря блестящим сейвам голкипера ${.self:"sportteam":0:"member":"keeper":"lastname"}, против
+
+SPORT_SOCCER_TEAMREPORT_MATCHLOOSE_S1 = ${.lte:7:${.random:10}:"${.locale:"SPORT_TEAMREPORT_MATCHKIND":"":1}":""} отдают 3 ценных очка
+SPORT_SOCCER_TEAMREPORT_MATCHLOOSE_P1 = ${.lte:7:${.random:10}:"${.locale:"SPORT_TEAMREPORT_MATCHKIND":"":1}":""} отдают 3 ценных очка
+SPORT_SOCCER_TEAMREPORT_MATCHLOOSE_S2 = ${.lte:7:${.random:10}:"${.locale:"SPORT_TEAMREPORT_MATCHKIND":"":1}":""} побеждены, благодаря ошибке вратаря ${.self:"sportteam":0:"member":"keeper":"lastname"}, от
+SPORT_SOCCER_TEAMREPORT_MATCHLOOSE_P2 = ${.lte:7:${.random:10}:"${.locale:"SPORT_TEAMREPORT_MATCHKIND":"":1}":""} побеждены, благодаря ошибке вратаря ${.self:"sportteam":0:"member":"keeper":"lastname"}, от
+SPORT_SOCCER_TEAMREPORT_MATCHLOOSE_S3 = ${.lte:7:${.random:10}:"${.locale:"SPORT_TEAMREPORT_MATCHKIND":"":1}:""} проигрывают, с вратарём ${.self:"sportteam":0:"member":"keeper":"fullname"} дающим разочаровывающее выступление, против
+SPORT_SOCCER_TEAMREPORT_MATCHLOOSE_P3 = ${.lte:7:${.random:10}:"${.locale:"SPORT_TEAMREPORT_MATCHKIND":"":1}:""} проигрывают, с вратарём ${.self:"sportteam":0:"member":"keeper":"fullname"} дающим разочаровывающее выступление, против
+
+SPORT_SOCCER_TEAMREPORT_MATCHKIND1 = - после ${.self:"sportmatch":"playtimeminutes"}  минут грязной игры -
+SPORT_SOCCER_TEAMREPORT_MATCHKIND2 = - после ${.self:"sportmatch":"playtimeminutes"}  минут острой тактики -
+SPORT_SOCCER_TEAMREPORT_MATCHKIND3 = - после ${.self:"sportmatch":"playtimeminutes"}  минут волнения -
+
+SPORT_TEAMREPORT_MATCHWIN_S1 = победа, благодаря ${.self:"sportteam":0:"member":"forward":"fullname"}, против
+SPORT_TEAMREPORT_MATCHWIN_P1 = победа, благодаря ${.self:"sportteam":0:"member":"forward":"fullname"}, против
+SPORT_TEAMREPORT_MATCHWIN_S2 = ${.lte:7:${.random:10}:"${.locale:"SPORT_TEAMREPORT_MATCHKIND":"":1}":""} побеждают
+SPORT_TEAMREPORT_MATCHWIN_P2 = ${.lte:7:${.random:10}:"${.locale:"SPORT_TEAMREPORT_MATCHKIND":"":1}":""} побеждают
+SPORT_TEAMREPORT_MATCHWIN_S3 = подчиняют
+SPORT_TEAMREPORT_MATCHWIN_P3 = подчиняют
+SPORT_TEAMREPORT_MATCHWIN_S4 = победа %MATCHSCORE1TEXT% против
+SPORT_TEAMREPORT_MATCHWIN_P4 = победа %MATCHSCORE1TEXT% против
+
+SPORT_TEAMREPORT_MATCHDRAW_S1 = упускают ${.neq:${.self:"sportmatch":"winnerscore"}:1:"${.locale:"SCORE_POINTS"}":"${.locale:"SCORE_POINT"}"} против
+SPORT_TEAMREPORT_MATCHDRAW_P1 = упускают ${.neq:${.self:"sportmatch":"winnerscore"}:1:"${.locale:"SCORE_POINTS"}":"${.locale:"SCORE_POINT"}"} против
+SPORT_TEAMREPORT_MATCHDRAW_S2 = ничья против
+SPORT_TEAMREPORT_MATCHDRAW_P2 = ничья против
+SPORT_TEAMREPORT_MATCHDRAW_S3 = приносят домой ${.self:"sportmatch":"drawgamescore"} ${.neq:${.self:"sportmatch":"drawgamescore"}:1:"${.locale:"SCORE_POINTS"}":"${.locale:"SCORE_POINT"}"} против
+SPORT_TEAMREPORT_MATCHDRAW_P3 = приносят домой ${.self:"sportmatch":"drawgamescore"} ${.neq:${.self:"sportmatch":"drawgamescore"}:1:"${.locale:"SCORE_POINTS"}":"${.locale:"SCORE_POINT"}"} против
+
+SPORT_TEAMREPORT_MATCHLOOSE_S1 = ${.lte:7:${.random:10}:"${.locale:"SPORT_TEAMREPORT_MATCHKIND":"":1}":""} дарят ${.self:"sportmatch":"score":1} ${.neq:${.self:"sportmatch":"score":1}:1:"${.locale:"SCORE_POINTS"}":"${.locale:"SCORE_POINT"}"} 
+SPORT_TEAMREPORT_MATCHLOOSE_P1 = ${.lte:7:${.random:10}:"${.locale:"SPORT_TEAMREPORT_MATCHKIND":"":1}":""} дарят ${.self:"sportmatch":"score":1} ${.neq:${.self:"sportmatch":"score":1}:1:"${.locale:"SCORE_POINTS"}":"${.locale:"SCORE_POINT"}"} 
+SPORT_TEAMREPORT_MATCHLOOSE_S2 = ${.lte:7:${.random:10}:"${.locale:"SPORT_TEAMREPORT_MATCHKIND":"":1}":""} позорятся против
+SPORT_TEAMREPORT_MATCHLOOSE_P2 = ${.lte:7:${.random:10}:"${.locale:"SPORT_TEAMREPORT_MATCHKIND":"":1}":""} позорятся против
+SPORT_TEAMREPORT_MATCHLOOSE_S3 = ${.lte:7:${.random:10}:"${.locale:"SPORT_TEAMREPORT_MATCHKIND":"":1}":""} отдают ${.self:"sportmatch":"score":1} ${.neq:${.self:"sportmatch":"score":1}:1:"${.locale:"SCORE_POINTS"}":"${.locale:"SCORE_POINT"}"} 
+SPORT_TEAMREPORT_MATCHLOOSE_P3 = ${.lte:7:${.random:10}:"${.locale:"SPORT_TEAMREPORT_MATCHKIND":"":1}":""} отдают ${.self:"sportmatch":"score":1} ${.neq:${.self:"sportmatch":"score":1}:1:"${.locale:"SCORE_POINTS"}":"${.locale:"SCORE_POINT"}"} to
+
+SPORT_TEAMREPORT_MATCHKIND1 = заслуженно
+SPORT_TEAMREPORT_MATCHKIND2 = незаслуженно
+SPORT_TEAMREPORT_MATCHKIND3 = - после долгого ${.self:"sportmatch":"playtimeminutes"}  минут -
+SPORT_TEAMREPORT_MATCHKIND4 = - в потрясающем спектакле игры -
+SPORT_TEAMREPORT_MATCHKIND5 = - в захватывающем матче -
+SPORT_TEAMREPORT_MATCHKIND6 = - в заполненном стадионе -
+SPORT_TEAMREPORT_MATCHKIND7 = - перед полной аудиторией -
+SPORT_TEAMREPORT_MATCHKIND8 = - перед бурной аудиторией -
+SPORT_TEAMREPORT_MATCHKIND9 = - перед frenetic аудиторией -
+SPORT_TEAMREPORT_MATCHKIND11 = - почти без зрителей -
+SPORT_TEAMREPORT_MATCHKIND12 = - на заполненном стадионе -
+SPORT_TEAMREPORT_MATCHRESULT = ${.ucfirst:"${.self:"sportteam":0:"teamnamewitharticle"}"} ${.self:"sportmatch":"resulttext"} ${.self:"sportteam":1:"teamnamewitharticle":2} ${.self:"sportmatch":"finalscoretext"}.
+##Variant A = "_der_ FC gewinnt"
+##Variant B = "besiegt _den_ FC"
+SPORT_TEAMNAME_S_VARIANT_A =
+SPORT_TEAMNAME_S_VARIANT_B =
+SPORT_TEAMNAME_P_VARIANT_A =
+SPORT_TEAMNAME_P_VARIANT_B =
